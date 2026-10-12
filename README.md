@@ -16,6 +16,23 @@ Proyek ini mengklasifikasikan emosi manusia dari ekspresi wajah menggunakan *dee
 
 Model dilatih dan diuji pada dataset gambar RGB dengan tujuh kelas emosi: `Anger`, `Disgust`, `Fear`, `Happiness`, `Neutral`, `Sadness`, dan `Surprise`. Kinerja diukur dengan *accuracy*, *precision*, *recall*, *F1-score*, *confusion matrix*, dan kurva ROC. Visualisasi **Grad-CAM** dan **Grad-CAM++** dipakai untuk melihat area wajah yang memengaruhi prediksi model.
 
+## 🗂️ Struktur Proyek
+
+Dataset dan model tersimpan tidak disertakan di repositori karena ukurannya besar. Dataset dibaca dari Google Drive di dalam notebook, dan model disimpan ke Google Drive dalam format `.h5`.
+
+```bash
+Facial-Emotion-Recognition/
+│
+├── Image/                        # Gambar untuk dokumentasi README
+│
+├── src/                          # Notebook Google Colab
+│     ├── FER_VGG16.ipynb
+│     ├── FER_GoogLeNet.ipynb
+│     ├── FER_ResNet101V2.ipynb
+│     └── FER_EfficientNetB2.ipynb
+│
+└── README.md                     # Dokumentasi proyek
+```
 
 ## 🗃️ Dataset
 
@@ -209,4 +226,5 @@ Proyek ini menggunakan lisensi MIT. Silakan menggunakan, memodifikasi, dan mendi
 ## 📬 Kontak
 
 **[Nama Anda]**
-📧 Email: [laurensiusryan11gmail.com]
+📧 Email: [laurensiusryan11@gmail.com]
+
