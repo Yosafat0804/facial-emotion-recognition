@@ -225,6 +225,5 @@ Proyek ini menggunakan lisensi MIT. Silakan menggunakan, memodifikasi, dan mendi
 
 ## 📬 Kontak
 
-**[Laurensius Ryan Antony]**
-📧 Email: [laurensiusryan11@gmail.com]
+📧 Email: laurensiusryan11@gmail.com
 
